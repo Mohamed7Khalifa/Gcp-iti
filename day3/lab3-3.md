@@ -17,20 +17,18 @@ kubectl create deployment nginx --image nginx --replicas=1
 kubectl expose deployment nginx --port=80 --target-port=80 --name=lb-service --type=loadBalancer
 ```
 ### 4. What is the type of GCP Load Balancer that is created for your LB service?
-```bash
-
-```
+standard loadbalancer
 ### 5. Use kubectl to view container logs.
 ```bash
 kubectl logs nginx-8f458gc5s
 ```
 ### 6. Use cloud logging service to view container logs. [hint: search about cloud logging service for gke]
-![image info](Screenshot/lab3-2-q6.png)
+![image info](Screenshot/lab3-3-q6.png)
 
 ### 7. (Bonus) setup a HTTP load balancer for your deployment using the kubernetes ingress resource. (hint: link)
 
 ### 8. Create an autopilot GKE cluster with public control plane.
-![image info](Screenshot/lab3-2-q8.png)
+![image info](Screenshot/lab3-3-q8.png)
 
 ### 9. Enforce the cluster’s control plane to accept only connections from your local machine.
 ```bash

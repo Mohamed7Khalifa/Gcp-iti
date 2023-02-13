@@ -19,8 +19,13 @@
 
 ![image info](Screenshot/lab4-3-q1-8.png)
 
+![image info](Screenshot/lab4-3-q1-9.png)
+
+
+
 ### 2. Using Cloud Functions:
 – Create a Function that runs whenever a file is uploaded to a cloud storage bucket. [hint: link]
+
 ![image info](Screenshot/lab4-3-q2-1.png)
 
 ![image info](Screenshot/lab4-3-q2-2.png)
